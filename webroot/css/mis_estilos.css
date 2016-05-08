@@ -1,0 +1,400 @@
+
+.container{
+	width: 90%;
+} 
+
+.boton_home	{
+	height: 30em;
+	width: 100%;
+	margin-bottom: 5em;
+	border-radius: 15px;
+	background-color: #15848F;
+
+}
+
+.boton_home:hover{
+	background-color: #8A3948;
+}
+
+.escudo{
+	width: 150px;
+}
+
+.icono_grande {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	font-size: 5em;
+	text-shadow: 5px 5px 5px #353535;
+
+}
+.open>.dropdown-menu{
+	padding: 0.5em;
+}
+
+.open > ul{
+	width:500px;
+}
+
+.botonera_pequeña {
+	width:100%;
+	height: 4em;
+	text-align: center;
+	display: none;
+
+}
+
+.botonera_pequeña>a>div {
+	border-radius: 20px;
+	background-color: #8A3948;
+	border: 3px solid;
+	margin: 3px;
+	width:48%;
+}
+
+.botonera_pequeña>a>div:hover	{
+
+	color: #fff;
+	border-radius: 20px;
+	background-color: #15848F;
+
+}
+
+.label {
+	margin-top: .5em;
+	background-color: #FF4C1A;
+}
+
+div>table>thead {
+	background-color: #C3E1E4;
+}
+
+footer {
+	min-height: 10em;
+	background-color: #01545B;
+}
+
+.dropdown-menu{
+	z-index: 2000;
+}
+
+.bloque_fin {
+	height: 300px;
+}
+
+
+
+
+/***
+** PROGRESSBAR ***
+***/
+
+ul#loadbar {
+    list-style: none;
+    width: 140px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+ul#loadbar li {
+    float: left;
+    position: relative;
+    width: 11px;
+    height: 26px;
+    margin-left: 1px;
+    border-left: 1px solid #111;
+    border-top: 1px solid #111;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    background: #000;
+}
+
+ul#loadbar li:first-child {
+    margin-left: 0;
+}
+
+.bar {
+    background-color: #2187e7;
+    background-image: -moz-linear-gradient(45deg, #2187e7 25%, #a0eaff);
+    background-image: -webkit-linear-gradient(45deg, #2187e7 25%, #a0eaff);
+    width: 11px;
+    height: 26px;
+    opacity: 0;
+    -webkit-animation: fill .5s linear forwards;
+    -moz-animation: fill .5s linear forwards;
+}
+
+#layerFill1 {
+    -moz-animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+
+#layerFill2 {
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+#layerFill3 {
+    -moz-animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+}
+
+#layerFill4 {
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}
+
+#layerFill5 {
+    -moz-animation-delay: 2.5s;
+    -webkit-animation-delay: 2.5s;
+}
+
+#layerFill6 {
+    -moz-animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+}
+
+#layerFill7 {
+    -moz-animation-delay: 3.5s;
+    -webkit-animation-delay: 3.5s;
+}
+
+#layerFill8 {
+    -moz-animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+}
+
+#layerFill9 {
+    -moz-animation-delay: 4.5s;
+    -webkit-animation-delay: 4.5s;
+}
+
+#layerFill10 {
+    -moz-animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+}
+
+@-moz-keyframes fill {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    };
+}
+
+@-webkit-keyframes fill {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    };
+}
+
+.margen_boton {
+    margin: 1em;
+}
+
+div.modal-body > p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.asterisco {
+    font-size: 20px;
+}
+
+
+
+/*** EMPLEABILIDAD ***/
+
+.inempleable{
+   color: #FF0400;
+
+}
+
+.empleable {
+    color: #34B400;
+}
+
+.dudoso {
+    color: #DFFF15;
+}
+
+.sin_valorar {
+    color: #000000;
+}
+
+.dni_inempleable{
+    
+    background: #FDD1C5 ;
+    background-position: 15px 50%; /* x-pos y-pos */
+    
+    border-top: 2px solid #FBAB95;
+    border-bottom: 2px solid #FBAB95;
+    color:#000000;
+}
+
+.dni_empleable {
+    background: #55F22C ;
+    background-position: 15px 50%; /* x-pos y-pos */
+    
+    border-top: 2px solid #277515;
+    border-bottom: 2px solid #277515;
+    color:#000000;
+}
+
+.dni_dudoso {
+    background: #EDFF4C ;
+    background-position: 15px 50%; /* x-pos y-pos */
+    
+    border-top: 2px solid #FCFF00;
+    border-bottom: 2px solid #FCFF00;
+    color:#000000;
+}
+
+.dni_sin_valorar {
+    background: #FDD1C5 ;
+    background-position: 15px 50%; /* x-pos y-pos */
+    
+    border-top: 2px solid #FBAB95;
+    border-bottom: 2px solid #FBAB95;
+    color:#000000;
+}
+
+.icono_plaza {
+    padding: 0.5em;
+}
+
+.ficha {
+    background-color: none;
+}
+
+.ficha .panel{
+    padding: 0;
+    border-width: 1px;    
+}
+
+.ficha .panel-heading{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    font-size: 0.8em;
+    height: 5em;
+}
+
+div.panel-warning>.panel-heading {
+    color:#333333;
+    background-color: #FFF435;
+}
+
+div.panel-success>.panel-heading {
+    color:#333333;
+    background-color: #48D931;
+}
+
+div.panel-danger>.panel-heading {
+    color:#333333;
+    background-color: #FF3123;
+}
+
+.cuenta_candidatos {
+    color: #fff;
+    background-color: #009688;
+    border-radius: 70%;
+    text-align: center;
+    display: inline-flex;
+    padding: 3px 3px;
+    /*display: none;*/
+}
+
+.correcto {
+    color:#00B702;
+}
+
+.incorrecto {
+    color:#FF0006;
+}
+
+tr.resaltada:hover {
+   
+    background-color: #74A6B4;
+    /*color: #ffffff  !important;*/
+
+}
+
+tr.resaltada:hover>td {
+   
+    color: #ffffff  !important;
+    /*font-size: 1.3rem !important;*/
+}
+div.panel {
+    border: 2px solid #333333;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);   
+}
+
+.panel-body {
+    background-color: #ffffff;
+}
+
+.ficha_clasificado {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.mas_info{
+    
+    font-size: 3em;
+}
+
+
+.indicador{
+    width: 100%;
+    
+    height: 3em;
+    border-radius: 90%;
+    background-color: #666666;
+    display: inline-block;
+    margin-bottom:2em;
+    color: #ffffff;
+    padding: 10% 0;
+}
+
+.indicador.Si{
+    background-color: #069236;
+}
+
+.indicador.No{
+    background-color: #C61A00;
+}
+
+.titular {
+    font-weight: bold;
+    color: #ffffff;
+    background-color:green;
+}
+
+.resaltada:hover td>a {
+    color: #ffffff;
+}
+
+div.modal {
+    color:#000000;
+}
+
+.renuncia {
+    background-color:#7AF445;
+}
+
+
+/****************************************************/
+
+canvas {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }

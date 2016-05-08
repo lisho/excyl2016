@@ -1,0 +1,461 @@
+2016-03-27 20:50:51 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver(Object(Cake\Database\Driver\Mysql), Array)
+#1 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(87): Cake\Database\Connection->__construct(Array)
+#2 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(202): Cake\Core\ObjectRegistry->load('Cake\\Database\\C...', Array)
+#4 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(914): Cake\Datasource\ConnectionManager::get('default')
+#5 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(876): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(890): Bake\Shell\Task\ModelTask->listAll()
+#7 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(228): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 [internal function]: Bake\Shell\BakeShell->all()
+#9 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#10 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 /opt/lampp/htdocs/rgc_cake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-03-27 20:58:10 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver(Object(Cake\Database\Driver\Mysql), Array)
+#1 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(87): Cake\Database\Connection->__construct(Array)
+#2 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(202): Cake\Core\ObjectRegistry->load('Cake\\Database\\C...', Array)
+#4 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(914): Cake\Datasource\ConnectionManager::get('default')
+#5 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(876): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(890): Bake\Shell\Task\ModelTask->listAll()
+#7 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(228): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 [internal function]: Bake\Shell\BakeShell->all()
+#9 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#10 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 /opt/lampp/htdocs/rgc_cake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-03-27 20:59:12 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver(Object(Cake\Database\Driver\Mysql), Array)
+#1 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(87): Cake\Database\Connection->__construct(Array)
+#2 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(202): Cake\Core\ObjectRegistry->load('Cake\\Database\\C...', Array)
+#4 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(914): Cake\Datasource\ConnectionManager::get('default')
+#5 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(876): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(890): Bake\Shell\Task\ModelTask->listAll()
+#7 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(228): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 [internal function]: Bake\Shell\BakeShell->all()
+#9 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#10 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 /opt/lampp/htdocs/rgc_cake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2016-03-27 21:00:55 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory
+Stack Trace:
+#0 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(921): Cake\Database\Connection->schemaCollection()
+#8 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(876): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(890): Bake\Shell\Task\ModelTask->listAll()
+#10 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(228): Bake\Shell\Task\ModelTask->listUnskipped()
+#11 [internal function]: Bake\Shell\BakeShell->all()
+#12 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#13 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /opt/lampp/htdocs/rgc_cake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2016-03-27 21:07:23 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory
+Stack Trace:
+#0 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(921): Cake\Database\Connection->schemaCollection()
+#8 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(876): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(890): Bake\Shell\Task\ModelTask->listAll()
+#10 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(228): Bake\Shell\Task\ModelTask->listUnskipped()
+#11 [internal function]: Bake\Shell\BakeShell->all()
+#12 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#13 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /opt/lampp/htdocs/rgc_cake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2016-03-27 21:13:48 Error: [PDOException] SQLSTATE[HY000] [2002] No such file or directory
+Stack Trace:
+#0 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(47): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(921): Cake\Database\Connection->schemaCollection()
+#8 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(876): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(890): Bake\Shell\Task\ModelTask->listAll()
+#10 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(228): Bake\Shell\Task\ModelTask->listUnskipped()
+#11 [internal function]: Bake\Shell\BakeShell->all()
+#12 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#13 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /opt/lampp/htdocs/rgc_cake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2016-03-27 21:25:12 Warning: Warning (2): unlink(/opt/lampp/htdocs/rgc_cake/src/Model/Table/empty): Permission denied in [/opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Filesystem/File.php, line 279]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+unlink - [internal], line ??
+Cake\Filesystem\File::delete() - CORE/src/Filesystem/File.php, line 279
+Bake\Shell\Task\BakeTask::_deleteEmptyFile() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTask.php, line 201
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 860
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 110
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 96
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 250
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 253
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 444
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 127
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2016-03-27 21:25:12 Warning: Warning (2): unlink(/opt/lampp/htdocs/rgc_cake/src/Model/Entity/empty): Permission denied in [/opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Filesystem/File.php, line 279]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+unlink - [internal], line ??
+Cake\Filesystem\File::delete() - CORE/src/Filesystem/File.php, line 279
+Bake\Shell\Task\BakeTask::_deleteEmptyFile() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTask.php, line 201
+Bake\Shell\Task\ModelTask::bakeEntity() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 803
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 96
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 250
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 253
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 444
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 127
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2016-03-27 21:25:12 Warning: Warning (2): unlink(/opt/lampp/htdocs/rgc_cake/tests/Fixture/empty): Permission denied in [/opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Filesystem/File.php, line 279]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+unlink - [internal], line ??
+Cake\Filesystem\File::delete() - CORE/src/Filesystem/File.php, line 279
+Bake\Shell\Task\BakeTask::_deleteEmptyFile() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTask.php, line 201
+Bake\Shell\Task\FixtureTask::generateFixtureFile() - ROOT/vendor/cakephp/bake/src/Shell/Task/FixtureTask.php, line 232
+Bake\Shell\Task\FixtureTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/FixtureTask.php, line 196
+Bake\Shell\Task\ModelTask::bakeFixture() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 1022
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 112
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 96
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 250
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 253
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 444
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 127
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2016-03-27 21:25:12 Warning: Warning (2): mkdir(): Permission denied in [/opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 547]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+mkdir - [internal], line ??
+Cake\Filesystem\Folder::create() - CORE/src/Filesystem/Folder.php, line 547
+Cake\Filesystem\Folder::__construct() - CORE/src/Filesystem/Folder.php, line 123
+Cake\Filesystem\File::__construct() - CORE/src/Filesystem/File.php, line 86
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 808
+Bake\Shell\Task\TestTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TestTask.php, line 272
+Bake\Shell\Task\ModelTask::bakeTest() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 1038
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 113
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 96
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 250
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 253
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 444
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 127
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2016-03-27 21:25:12 Warning: Warning (2): mkdir(): Permission denied in [/opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 547]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+mkdir - [internal], line ??
+Cake\Filesystem\Folder::create() - CORE/src/Filesystem/Folder.php, line 547
+Cake\Filesystem\Folder::__construct() - CORE/src/Filesystem/Folder.php, line 123
+Cake\Filesystem\File::__construct() - CORE/src/Filesystem/File.php, line 86
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 808
+Bake\Shell\Task\TemplateTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 383
+Bake\Shell\Task\TemplateTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 153
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 252
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 253
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 444
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 127
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2016-03-27 21:25:12 Warning: Warning (2): mkdir(): Permission denied in [/opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 547]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+mkdir - [internal], line ??
+Cake\Filesystem\Folder::create() - CORE/src/Filesystem/Folder.php, line 547
+Cake\Filesystem\Folder::__construct() - CORE/src/Filesystem/Folder.php, line 123
+Cake\Filesystem\File::__construct() - CORE/src/Filesystem/File.php, line 86
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 808
+Bake\Shell\Task\TemplateTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 383
+Bake\Shell\Task\TemplateTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 153
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 252
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 253
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 444
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 127
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2016-03-27 21:25:12 Warning: Warning (2): mkdir(): Permission denied in [/opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 547]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+mkdir - [internal], line ??
+Cake\Filesystem\Folder::create() - CORE/src/Filesystem/Folder.php, line 547
+Cake\Filesystem\Folder::__construct() - CORE/src/Filesystem/Folder.php, line 123
+Cake\Filesystem\File::__construct() - CORE/src/Filesystem/File.php, line 86
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 808
+Bake\Shell\Task\TemplateTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 383
+Bake\Shell\Task\TemplateTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 153
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 252
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 253
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 444
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 127
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2016-03-27 21:25:12 Warning: Warning (2): mkdir(): Permission denied in [/opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Filesystem/Folder.php, line 547]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+mkdir - [internal], line ??
+Cake\Filesystem\Folder::create() - CORE/src/Filesystem/Folder.php, line 547
+Cake\Filesystem\Folder::__construct() - CORE/src/Filesystem/Folder.php, line 123
+Cake\Filesystem\File::__construct() - CORE/src/Filesystem/File.php, line 86
+Cake\Console\Shell::createFile() - CORE/src/Console/Shell.php, line 808
+Bake\Shell\Task\TemplateTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 383
+Bake\Shell\Task\TemplateTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php, line 153
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 252
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 253
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 444
+Cake\Console\ShellDispatcher::_dispatch() - CORE/src/Console/ShellDispatcher.php, line 217
+Cake\Console\ShellDispatcher::dispatch() - CORE/src/Console/ShellDispatcher.php, line 181
+Cake\Console\ShellDispatcher::run() - CORE/src/Console/ShellDispatcher.php, line 127
+[main] - ROOT/bin/cake.php, line 33
+
+
+
+2016-03-27 21:59:39 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rgc.clasificado' doesn't exist
+Stack Trace:
+#0 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'clasificado', Array, Object(Cake\Database\Schema\Table))
+#1 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('clasificado', Array)
+#2 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/ORM/Table.php(429): Cake\Database\Schema\CachedCollection->describe('clasificado')
+#3 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(255): Cake\ORM\Table->schema()
+#4 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(207): Bake\Shell\Task\ModelTask->findBelongsTo(Object(App\Model\Table\ClasificadoTable), Array)
+#5 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(124): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\ClasificadoTable))
+#6 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\ClasificadoTable), 'clasificado', 'Clasificado')
+#7 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Clasificado')
+#8 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Clasificado')
+#9 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Clasificado', 0)
+#10 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#11 [internal function]: Bake\Shell\BakeShell->all('clasificado')
+#12 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#13 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /opt/lampp/htdocs/rgc_cake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2016-03-31 23:33:57 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rgc.empleos' doesn't exist
+Stack Trace:
+#0 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'empleos', Array, Object(Cake\Database\Schema\Table))
+#1 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('empleos', Array)
+#2 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/ORM/Table.php(429): Cake\Database\Schema\CachedCollection->describe('empleos')
+#3 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/ORM/Table.php(505): Cake\ORM\Table->schema()
+#4 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(206): Cake\ORM\Table->primaryKey()
+#5 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(124): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'empleos', 'Empleos')
+#7 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Empleos')
+#8 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Empleos')
+#9 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Empleos', 0)
+#10 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#11 [internal function]: Bake\Shell\BakeShell->all('empleos')
+#12 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#13 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /opt/lampp/htdocs/rgc_cake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2016-04-03 15:00:53 Error: [ParseError] syntax error, unexpected ']', expecting ',' or ')'
+Stack Trace:
+#0 /opt/lampp/htdocs/rgc_cake/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/opt/lampp/htdo...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Model\\Table...')
+#2 [internal function]: spl_autoload_call('App\\Model\\Table...')
+#3 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Core/App.php(151): class_exists('App\\Model\\Table...')
+#4 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Model\\Table\\Di...', 'App')
+#5 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(196): Cake\Core\App::className('Diagnosticos', 'Model/Table', 'Table')
+#6 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(154): Cake\ORM\Locator\TableLocator->_getClassName('Diagnosticos', Array)
+#7 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/ORM/TableRegistry.php(111): Cake\ORM\Locator\TableLocator->get('Diagnosticos', Array)
+#8 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(181): Cake\ORM\TableRegistry::get('Diagnosticos', Array)
+#9 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(336): Bake\Shell\Task\ModelTask->getTableObject('Diagnosticos', 'diagnosticos')
+#10 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(216): Bake\Shell\Task\ModelTask->findHasMany(Object(App\Model\Table\CandidatosTable), Array)
+#11 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(124): Bake\Shell\Task\ModelTask->getAssociations(Object(App\Model\Table\CandidatosTable))
+#12 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\CandidatosTable), 'candidatos', 'Candidatos')
+#13 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Candidatos')
+#14 [internal function]: Bake\Shell\Task\ModelTask->main('candidatos')
+#15 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/Shell.php(456): call_user_func_array(Array, Array)
+#16 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/Shell.php(450): Cake\Console\Shell->runCommand(Array, false)
+#17 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#18 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#19 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#20 /opt/lampp/htdocs/rgc_cake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#21 {main}
+
+
+2016-04-03 15:04:10 Error: [ParseError] syntax error, unexpected ']', expecting ',' or ')'
+Stack Trace:
+#0 /opt/lampp/htdocs/rgc_cake/vendor/composer/ClassLoader.php(301): Composer\Autoload\includeFile('/opt/lampp/htdo...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Model\\Table...')
+#2 [internal function]: spl_autoload_call('App\\Model\\Table...')
+#3 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Core/App.php(151): class_exists('App\\Model\\Table...')
+#4 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Core/App.php(64): Cake\Core\App::_classExistsInBase('\\Model\\Table\\Di...', 'App')
+#5 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(196): Cake\Core\App::className('Diagnosticos', 'Model/Table', 'Table')
+#6 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(154): Cake\ORM\Locator\TableLocator->_getClassName('Diagnosticos', Array)
+#7 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/ORM/Association.php(319): Cake\ORM\Locator\TableLocator->get('Diagnosticos', Array)
+#8 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(482): Cake\ORM\Association->target()
+#9 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(129): Bake\Shell\Task\ModelTask->getEntityPropertySchema(Object(App\Model\Table\CandidatosTable))
+#10 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getTableContext(Object(App\Model\Table\CandidatosTable), 'candidatos', 'Candidatos')
+#11 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Candidatos')
+#12 [internal function]: Bake\Shell\Task\ModelTask->main('candidatos')
+#13 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/Shell.php(456): call_user_func_array(Array, Array)
+#14 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/Shell.php(450): Cake\Console\Shell->runCommand(Array, false)
+#15 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#16 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 /opt/lampp/htdocs/rgc_cake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2016-04-06 15:57:00 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rgc.excyl2016' doesn't exist
+Stack Trace:
+#0 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'excyl2016', Array, Object(Cake\Database\Schema\Table))
+#1 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('excyl2016', Array)
+#2 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/ORM/Table.php(429): Cake\Database\Schema\CachedCollection->describe('excyl2016')
+#3 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/ORM/Table.php(505): Cake\ORM\Table->schema()
+#4 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(206): Cake\ORM\Table->primaryKey()
+#5 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(124): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'excyl2016', 'Excyl2016')
+#7 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Excyl2016')
+#8 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Excyl2016')
+#9 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Excyl2016', 0)
+#10 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#11 [internal function]: Bake\Shell\BakeShell->all('excyl2016')
+#12 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#13 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /opt/lampp/htdocs/rgc_cake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2016-04-15 11:54:16 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rgc.nominargc' doesn't exist
+Stack Trace:
+#0 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'nominargc', Array, Object(Cake\Database\Schema\Table))
+#1 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('nominargc', Array)
+#2 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/ORM/Table.php(429): Cake\Database\Schema\CachedCollection->describe('nominargc')
+#3 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/ORM/Table.php(505): Cake\ORM\Table->schema()
+#4 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(206): Cake\ORM\Table->primaryKey()
+#5 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(124): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'nominargc', 'Nominargc')
+#7 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Nominargc')
+#8 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Nominargc')
+#9 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Nominargc', 0)
+#10 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#11 [internal function]: Bake\Shell\BakeShell->all('nominargc')
+#12 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#13 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /opt/lampp/htdocs/rgc_cake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2016-04-15 11:55:41 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rgc.nominargc' doesn't exist
+Stack Trace:
+#0 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'nominargc', Array, Object(Cake\Database\Schema\Table))
+#1 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('nominargc', Array)
+#2 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/ORM/Table.php(429): Cake\Database\Schema\CachedCollection->describe('nominargc')
+#3 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/ORM/Table.php(505): Cake\ORM\Table->schema()
+#4 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(206): Cake\ORM\Table->primaryKey()
+#5 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(124): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'nominargc', 'Nominargc')
+#7 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(96): Bake\Shell\Task\ModelTask->bake('Nominargc')
+#8 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(250): Bake\Shell\Task\ModelTask->main('Nominargc')
+#9 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Nominargc', 0)
+#10 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/bake/src/Shell/BakeShell.php(253): Cake\Collection\Collection->each(Object(Closure))
+#11 [internal function]: Bake\Shell\BakeShell->all('nominargc')
+#12 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/Shell.php(444): call_user_func_array(Array, Array)
+#13 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(217): Cake\Console\Shell->runCommand(Array, true, Array)
+#14 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(181): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 /opt/lampp/htdocs/rgc_cake/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(127): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 /opt/lampp/htdocs/rgc_cake/bin/cake.php(33): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
